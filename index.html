@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Το καλύτερο γυράδικο στη Θεσσαλονίκη - Αυθεντικές γεύσεις, φρέσκα υλικά">
+    <title>Το Γυράδικο - Αυθεντικές Ελληνικές Γεύσεις</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Το Γυράδικο</span>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Αρχική</a></li>
+                    <li><a href="#about" class="nav-link">Σχετικά</a></li>
+                    <li><a href="#menu" class="nav-link">Μενού</a></li>
+                    <li><a href="#location" class="nav-link">Τοποθεσία</a></li>
+                    <li><a href="#contact" class="nav-link">Επικοινωνία</a></li>
+                </ul>
+                
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Αυθεντικές Ελληνικές Γεύσεις</h1>
+            <p class="hero-subtitle">Ο καλύτερος γύρος στην πόλη από το 1997</p>
+            <a href="#menu" class="btn btn-primary">Δες το Μενού</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Σχετικά με Εμάς</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        <strong>Το Γυράδικο</strong> άνοιξε τις πόρτες του το 1997 και από τότε αποτελεί σημείο αναφοράς 
+                        για τον πιο λαχταριστό γύρο και τα πιο νόστιμα κρεατικά στη σχάρα στη Θεσσαλονίκη.
+                    </p>
+                    <p class="about-description">
+                        Η φιλοσοφία μας στηρίζεται στην <strong>ποιότητα</strong>, την <strong>ταχύτητα</strong> 
+                        και την <strong>άψογη εξυπηρέτηση</strong>. Όλα τα κρεατικά και οι αλοιφές παρασκευάζονται 
+                        καθημερινά στο κατάστημά μας με αγνές Ελληνικές πρώτες ύλες εξαιρετικής ποιότητας.
+                    </p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Ελληνικά Υλικά</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Φρέσκια Παρασκευή Καθημερινά</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Υψηλά Πρότυπα Υγιεινής</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Προσιτές Τιμές</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1599974918086-c1b5a9d6f4b8?w=600&h=600&fit=crop" alt="Γύρος">
+                    <div class="image-badge">
+                        <i class="fas fa-award"></i>
+                        <span>Από το 1997</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Το Μενού Μας</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Όλα φτιαγμένα με αγάπη και τα καλύτερα υλικά</p>
+            </div>
+            
+            <!-- Γύρος -->
+            <div class="menu-category">
+                <h3 class="category-title">
+                    <i class="fas fa-drumstick-bite"></i>
+                    Γύρος
+                </h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Γύρος Χοιρινός Πίτα</h4>
+                            <span class="item-price">3.50€</span>
+                        </div>
+                        <p class="item-description">Με τζατζίκι, τομάτα, κρεμμύδι, πατάτες</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Γύρος Κοτόπουλο Πίτα</h4>
+                            <span class="item-price">3.50€</span>
+                        </div>
+                        <p class="item-description">Με σως, μαρούλι, τομάτα, πατάτες</p>
+                    </div>
+                    
+                    <div class="menu-item featured">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Γύρος Μερίδα <span class="badge">Δημοφιλές</span></h4>
+                            <span class="item-price">7.50€</span>
+                        </div>
+                        <p class="item-description">Πλήρης μερίδα με πίτα, πατάτες, σαλάτα</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Καλαμάκι Χοιρινό Πίτα</h4>
+                            <span class="item-price">3.20€</span>
+                        </div>
+                        <p class="item-description">Με τζατζίκι, τομάτα, κρεμμύδι</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Σουβλάκια -->
+            <div class="menu-category">
+                <h3 class="category-title">
+                    <i class="fas fa-fire"></i>
+                    Σουβλάκια & Σχάρας
+                </h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Καλαμάκι Χοιρινό</h4>
+                            <span class="item-price">1.50€</span>
+                        </div>
+                        <p class="item-description">Φρέσκο μαριναρισμένο</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Καλαμάκι Κοτόπουλο</h4>
+                            <span class="item-price">1.50€</span>
+                        </div>
+                        <p class="item-description">Μαλακό και ζουμερό</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Μπιφτέκι Σπέσιαλ</h4>
+                            <span class="item-price">2.00€</span>
+                        </div>
+                        <p class="item-description">Με τυρί και μπέικον</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Λουκάνικο Χωριάτικο</h4>
+                            <span class="item-price">1.80€</span>
+                        </div>
+                        <p class="item-description">Παραδοσιακό χειροποίητο</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Παϊδάκια (4 τεμ.)</h4>
+                            <span class="item-price">8.50€</span>
+                        </div>
+                        <p class="item-description">Αρνίσια τραγανά</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Μπριζόλα Χοιρινή</h4>
+                            <span class="item-price">6.50€</span>
+                        </div>
+                        <p class="item-description">Με πατάτες τηγανητές</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Σαλάτες & Ορεκτικά -->
+            <div class="menu-category">
+                <h3 class="category-title">
+                    <i class="fas fa-leaf"></i>
+                    Σαλάτες & Ορεκτικά
+                </h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Χωριάτικη Σαλάτα</h4>
+                            <span class="item-price">4.50€</span>
+                        </div>
+                        <p class="item-description">Φρέσκα λαχανικά, φέτα, ελιές</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Τζατζίκι</h4>
+                            <span class="item-price">2.50€</span>
+                        </div>
+                        <p class="item-description">Χειροποίητο με αγγούρι</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Πατάτες Τηγανητές</h4>
+                            <span class="item-price">2.50€</span>
+                        </div>
+                        <p class="item-description">Τραγανές χειροποίητες</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Τυροπιτάκια (3 τεμ.)</h4>
+                            <span class="item-price">3.00€</span>
+                        </div>
+                        <p class="item-description">Με φέτα και μυρωδικά</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ποτά -->
+            <div class="menu-category">
+                <h3 class="category-title">
+                    <i class="fas fa-glass-whiskey"></i>
+                    Ποτά & Αναψυκτικά
+                </h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Coca Cola / Sprite</h4>
+                            <span class="item-price">1.50€</span>
+                        </div>
+                        <p class="item-description">330ml κουτί</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Νερό</h4>
+                            <span class="item-price">0.50€</span>
+                        </div>
+                        <p class="item-description">500ml φιάλη</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Μπύρα</h4>
+                            <span class="item-price">2.50€</span>
+                        </div>
+                        <p class="item-description">Mythos / Alfa 330ml</p>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4 class="item-name">Χυμός</h4>
+                            <span class="item-price">2.00€</span>
+                        </div>
+                        <p class="item-description">Πορτοκάλι / Λεμόνι</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Πού Μας Βρίσκετε</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Διεύθυνση</h3>
+                            <p>Πλατεία Αριστοτέλους 8<br>Θεσσαλονίκη, 54624</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Ωράριο Λειτουργίας</h3>
+                            <p><strong>Δευτέρα - Πέμπτη:</strong> 11:00 - 00:00</p>
+                            <p><strong>Παρασκευή - Σάββατο:</strong> 11:00 - 02:00</p>
+                            <p><strong>Κυριακή:</strong> 12:00 - 00:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Τηλέφωνο Επικοινωνίας</h3>
+                            <p><a href="tel:2310123456">2310 123 456</a></p>
+                            <p class="delivery-info">
+                                <i class="fas fa-motorcycle"></i>
+                                Διαθέσιμο delivery
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.6487167654494!2d22.941495715396877!3d40.632548579340814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a838f41428e0ed%3A0x9bae715b8d574a9!2sAristotle%20Square!5e0!3m2!1sen!2sgr!4v1635789123456!5m2!1sen!2sgr" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Επικοινωνήστε Μαζί Μας</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Θα χαρούμε να ακούσουμε τη γνώμη σας!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Καλέστε μας</h4>
+                            <p><a href="tel:2310123456">2310 123 456</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@togyradiko.gr">info@togyradiko.gr</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fab fa-facebook"></i>
+                        <div>
+                            <h4>Social Media</h4>
+                            <div class="social-links">
+                                <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Το όνομά σας" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Τηλέφωνο">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Το μήνυμά σας..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Αποστολή Μηνύματος
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <i class="fas fa-utensils"></i>
+                        Το Γυράδικο
+                    </h3>
+                    <p>Αυθεντικές Ελληνικές γεύσεις από το 1997</p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Γρήγορες Συνδέσεις</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Αρχική</a></li>
+                        <li><a href="#about">Σχετικά</a></li>
+                        <li><a href="#menu">Μενού</a></li>
+                        <li><a href="#location">Τοποθεσία</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ωράριο</h4>
+                    <ul class="footer-hours">
+                        <li>Δευτ - Πέμ: 11:00 - 00:00</li>
+                        <li>Παρ - Σάβ: 11:00 - 02:00</li>
+                        <li>Κυριακή: 12:00 - 00:00</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Επικοινωνία</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Πλατεία Αριστοτέλους 8, Θεσσαλονίκη</li>
+                        <li><i class="fas fa-phone"></i> 2310 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@togyradiko.gr</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Το Γυράδικο. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+                <p class="made-with">Made with <i class="fas fa-heart"></i> in Thessaloniki</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
